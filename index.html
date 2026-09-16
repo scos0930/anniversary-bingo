@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Anniversary Bingo</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <main class="app">
+        <header class="app-header">
+            <p class="eyebrow">Downtown Gainesville & Greenway</p>
+
+            <h1>Anniversary Bingo</h1>
+
+            <p class="subtitle">
+                Five years down, a life time to go!
+            </p>
+
+            <div class="progress-area">
+                <span id="progressText">0 of 25 completed</span>
+
+                <div class="progress-bar">
+                    <div id="progressFill"></div>
+                </div>
+            </div>
+        </header>
+
+        <section id="gameBoard" class="game-board"></section>
+
+        <section id="completionMessage" class="completion-message hidden">
+            <h2>We did it! ❤️</h2>
+
+            <p>
+                All 25 challenges are complete. Now it’s time to celebrate!
+            </p>
+
+            <button id="restartButton">Start Over</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
