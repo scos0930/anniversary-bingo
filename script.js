@@ -2,127 +2,127 @@
     {
         observe: "See a dog",
         challenge: "Answer: “What is your favorite place we’ve been to?”",
-        image: "images/dogs.jpg"
+        image: "images/web-ready/dogs.jpg"
     },
     {
         observe: "See Halloween decorations",
         challenge: "Share your favorite Halloween memory.",
-        image: "images/halloween.jpg"
+        image: "images/web-ready/halloween.jpg"
     },
     {
         observe: "A runner passes from behind",
         challenge: "Hold hands until the next fork in the path.",
-        image: "images/sunset.jpg"
+        image: "images/web-ready/sunset.jpg"
     },
     {
         observe: "A runner passes in the opposite direction",
         challenge: "Kiss on the cheek.",
-        image: "images/boat.jpg"
+        image: "images/web-ready/boat.jpg"
     },
     {
         observe: "See kids in a stroller",
         challenge: "Say where we want to vacation next.",
-        image: "images/bar.jpg"
+        image: "images/web-ready/bar.jpg"
     },
     {
         observe: "See a cat",
         challenge: "Do a little dance.",
-        image: "images/market.jpg"
+        image: "images/web-ready/market.jpg"
     },
     {
         observe: "See flowers",
         challenge: "Kiss on the lips.",
-        image: "images/arts.jpg"
+        image: "images/web-ready/arts.jpg"
     },
     {
         observe: "See geese",
         challenge: "Give each other a playful booty smack.",
-        image: "images/geese.jpg"
+        image: "images/web-ready/geese.jpg"
     },
     {
         observe: "See a bike",
         challenge: "Buy a shot before dinner.",
-        image: "images/bike.jpg"
+        image: "images/web-ready/bike.jpg"
     },
     {
         observe: "See someone we know",
         challenge: "Order dessert.",
-        image: "images/family.jpg"
+        image: "images/web-ready/family.jpg"
     },
     {
         observe: "See leaves falling",
         challenge: "Hug.",
-        image: "images/hug.jpg"
+        image: "images/web-ready/hug.jpg"
     },
     {
         observe: "See ducks",
         challenge: "Skip a rock in the lake.",
-        image: "images/ducks.jpg"
+        image: "images/web-ready/ducks.jpg"
     },
     {
         observe: "See a kid with a toy",
         challenge: "Pick a movie to watch soon.",
-        image: "images/movie.jpg"
+        image: "images/web-ready/movie.jpg"
     },
     {
         observe: "See someone eating at a picnic bench",
         challenge: "Decide what we want for dinner.",
-        image: "images/dinner.jpg"
+        image: "images/web-ready/dinner.jpg"
     },
     {
         observe: "See kids playing on the playground",
         challenge: "Decide what game to play next.",
-        image: "images/game.jpg"
+        image: "images/web-ready/game.jpg"
     },
     {
         observe: "See a mural",
         challenge: "Recite song lyrics it makes you think of.",
-        image: "images/song.jpg"
+        image: "images/web-ready/song.jpg"
     },
     {
         observe: "Hear live music or see someone performing",
         challenge: "Give them a tip.",
-        image: "images/music.jpg"
+        image: "images/web-ready/music.jpg"
     },
     {
         observe: "See other people holding hands",
         challenge: "Share something the other person does that makes you laugh.",
-        image: "images/laugh.jpg"
+        image: "images/web-ready/laugh.jpg"
     },
     {
         observe: "See a deer",
         challenge: "Take a selfie together.",
-        image: "images/selfie.jpg"
+        image: "images/web-ready/selfie.jpg"
     },
     {
         observe: "See a squirrel",
         challenge: "Take a shot at dinner.",
-        image: "images/shot.jpg"
+        image: "images/web-ready/shot.jpg"
     },
     {
         observe: "See a groundhog",
         challenge: "Say hi to it.",
-        image: "images/groundhog.jpg"
+        image: "images/web-ready/groundhog.jpg"
     },
     {
         observe: "See someone fishing",
         challenge: "Give each other a compliment.",
-        image: "images/fish.jpg"
+        image: "images/web-ready/fish.jpg"
     },
     {
         observe: "See graffiti",
         challenge: "Slow dance for one minute.",
-        image: "images/graffiti.jpg"
+        image: "images/web-ready/graffiti.jpg"
     },
     {
         observe: "Smell something nice",
         challenge: "High five.",
-        image: "images/smell.jpg"
+        image: "images/web-ready/smell.jpg"
     },
     {
         observe: "Free space",
         challenge: "Take a shot.",
-        image: "images/free.jpg"
+        image: "images/web-ready/free.jpg"
     }
 ];
 
