@@ -3,46 +3,125 @@
 <head>
     <meta charset="utf-8" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
 
-    <title>Anniversary Bingo</title>
+    <title>Anniversary Adventure</title>
 
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
     <main class="app">
-        <header class="app-header">
-            <p class="eyebrow">Downtown Gainesville & Greenway</p>
 
-            <h1>Anniversary Bingo</h1>
+        <!-- ============================= -->
+        <!-- SCAVENGER HUNT LIST            -->
+        <!-- ============================= -->
 
-            <p class="subtitle">
-                Five years down, a life time to go!
-            </p>
+        <section id="huntScreen" class="screen">
 
-            <div class="progress-area">
-                <span id="progressText">0 of 25 completed</span>
+            <header class="app-header">
 
-                <div class="progress-bar">
-                    <div id="progressFill"></div>
+                <p class="eyebrow">
+                    Our Anniversary
+                </p>
+
+                <h1>
+                    Adventure ❤️
+                </h1>
+
+                <p class="subtitle">
+                    Find the things. Complete the challenges.
+                </p>
+
+                <div class="progress-area">
+
+                    <span id="progressText">
+                        0 of 25 completed
+                    </span>
+
+                    <div class="progress-bar">
+
+                        <div id="progressFill"></div>
+
+                    </div>
+
                 </div>
-            </div>
-        </header>
 
-        <section id="gameBoard" class="game-board"></section>
+            </header>
 
-        <section id="completionMessage" class="completion-message hidden">
-            <h2>We did it! ❤️</h2>
 
-            <p>
-                All 25 challenges are complete. Now it’s time to celebrate!
-            </p>
+            <!-- The JavaScript will put the 25 items here -->
 
-            <button id="restartButton">Start Over</button>
+            <section id="gameBoard"
+                     class="scavenger-list">
+            </section>
+
+
+            <!-- Completion message -->
+
+            <section id="completionMessage"
+                     class="completion-message hidden">
+
+                <h2>
+                    We did it! ❤️
+                </h2>
+
+                <p>
+                    You found them all!
+                    Now it's time to celebrate.
+                </p>
+
+                <button id="restartButton">
+                    Start Over
+                </button>
+
+            </section>
+
         </section>
+
+
+        <!-- ============================= -->
+        <!-- PHOTO / CHALLENGE SCREEN       -->
+        <!-- ============================= -->
+
+        <section id="challengeScreen"
+                 class="challenge-screen hidden">
+
+            <div class="challenge-progress">
+
+                <div id="challengeProgressBar"></div>
+
+            </div>
+
+
+            <div class="photo-container">
+
+                <img id="challengeImage"
+                     src=""
+                     alt="A memory from our adventures">
+
+            </div>
+
+
+            <div class="challenge-text">
+
+                <p id="challengeObserve"
+                   class="challenge-observe">
+                </p>
+
+                <h2 id="challengeQuestion">
+                </h2>
+
+            </div>
+
+        </section>
+
     </main>
 
+
     <script src="script.js"></script>
+
 </body>
 </html>
